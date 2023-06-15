@@ -1,0 +1,79 @@
+body{
+	background-color:white;
+}
+#content{
+	margin:auto;
+	background-color:#FFB190;
+}
+header{
+	padding:5px;
+	color:white;
+	text-align:center;
+}
+nav a:hover{
+	padding-right:10px;
+	background-color:magenta;
+	text-decoration:none;
+}
+nav ul{
+	list-style-type:none;
+	text-align:center;
+	text-decoration:none;
+}
+nav li {
+	display:inline;
+	color:white;
+	background-color:lightblue;
+	padding:1px;
+	text-decoration:none;
+}
+main{
+	padding:5px;
+	background-color:teal;
+}
+.slideshow{
+	margin:auto;
+}
+.about{
+	background-color:#EBD1D1;
+	padding:5px
+}
+.career{
+	background-color:azure;
+	padding:5px
+}
+.hidden{
+	display:none;
+}
+#form{
+	display:inline-block;
+	background-color:#DED7EC;
+}
+h2{
+	color:magenta;
+}
+footer{
+	padding:5px;
+	text-align:center;
+}
+@media (max-width:720px){
+	nav li{ display:block;
+		padding:.5em;
+		border-bottom:1px solid black;
+	}
+	nav ul{list-style-type:none;
+	text-align:left;
+	text-decoration:none;
+	}
+	img{
+		height:150px;
+		width:300px
+	}
+	footer{
+		clear:both;
+	}
+}
+
+		
+
+		
